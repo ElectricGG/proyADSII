@@ -1,0 +1,253 @@
+!SESSION 2019-06-17 18:08:25.145 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows Vista x86-32 jvmwi3260sr8-20100401_55940 (JIT enabled, AOT enabled)
+J9VM - 20100401_055940
+JIT  - r9_20100401_15339
+GC   - 20100308_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_ES
+Framework arguments:  -product com.ibm.rational.rsa.product.v80.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rsa.product.v80.ide
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-06-17 18:09:34.984
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-06-17 18:09:35.021
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-06-17 18:09:35.050
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-06-17 18:09:35.708
+!MESSAGE LUM license expired for productID 44: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-06-17 18:09:36.175
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.xtools.emf.ram.ui 4 0 2019-06-17 18:09:36.769
+!MESSAGE RAM Client is not installed. Please install the RAM Client to enable the RAM integration functionality.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-06-17 18:09:53.476
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2019-06-17 18:09:58.242
+!MESSAGE The feature in the extension is invalid
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2019-06-17 18:09:58.257
+!MESSAGE The feature in the extension is invalid
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-06-17 18:15:31.472
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-06-17 19:38:33.073
+!MESSAGE LUM license expired for productID 47: Past the expiration date on license.
+!SESSION 2019-09-22 14:49:07.874 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows Vista x86-32 jvmwi3260sr8-20100401_55940 (JIT enabled, AOT enabled)
+J9VM - 20100401_055940
+JIT  - r9_20100401_15339
+GC   - 20100308_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_ES
+Framework arguments:  -product com.ibm.rational.rsa.product.v80.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rsa.product.v80.ide
+
+!ENTRY org.eclipse.core.resources 4 567 2019-09-22 14:56:01.947
+!MESSAGE Se ha restaurado el espacio de trabajo, pero se han producido algunos problemas.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2019-09-22 14:56:01.947
+!MESSAGE No se han podido leer los metadatos para 'Project_ADSI'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Falta el archivo descriptivo del proyecto (.project) para 'Project_ADSI'.  Este archivo contiene información importante acerca del proyecto.  El proyecto no funcionará debidamente mientras no se restaure este archivo.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(Unknown Source)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(Unknown Source)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(Unknown Source)
+	at org.eclipse.core.internal.resources.SaveManager.restore(Unknown Source)
+	at org.eclipse.core.internal.resources.SaveManager.startup(Unknown Source)
+	at org.eclipse.core.internal.resources.Workspace.startup(Unknown Source)
+	at org.eclipse.core.internal.resources.Workspace.open(Unknown Source)
+	at org.eclipse.core.resources.ResourcesPlugin.start(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(Unknown Source)
+	at org.eclipse.osgi.framework.util.SecureAction.start(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(Unknown Source)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.ibm.ccl.common.splash.ExtensibleSplashHandler.<init>(Unknown Source)
+	at java.lang.J9VMInternals.newInstanceImpl(Native Method)
+	at java.lang.Class.newInstance(Unknown Source)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(Unknown Source)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(Unknown Source)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(Unknown Source)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPlugin$1.run(Unknown Source)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(Unknown Source)
+	at org.eclipse.ui.internal.splash.SplashHandlerFactory$1.run(Unknown Source)
+	at org.eclipse.core.runtime.SafeRunner.run(Unknown Source)
+	at org.eclipse.ui.internal.splash.SplashHandlerFactory.create(Unknown Source)
+	at org.eclipse.ui.internal.splash.SplashHandlerFactory.processElement(Unknown Source)
+	at org.eclipse.ui.internal.splash.SplashHandlerFactory.findSplashHandlerFor(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.getSplash(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$6(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$8.run(Unknown Source)
+	at org.eclipse.core.runtime.SafeRunner.run(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createSplashWrapper(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.main(Unknown Source)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2019-09-22 14:56:01.948
+!MESSAGE Falta el archivo descriptivo del proyecto (.project) para 'Project_ADSI'.  Este archivo contiene información importante acerca del proyecto.  El proyecto no funcionará debidamente mientras no se restaure este archivo.
+
+!ENTRY org.eclipse.ui 4 4 2019-09-22 14:56:26.933
+!MESSAGE Could not create view: 'com.ibm.ccl.erf.ui.views.reportexplorer'.
+
+!ENTRY org.eclipse.ui 4 4 2019-09-22 14:56:26.933
+!MESSAGE Could not create view: 'com.ibm.xtools.mde.guidance'.
+
+!ENTRY org.eclipse.ui 4 0 2019-09-22 14:56:36.242
+!MESSAGE Se han producido problemas al restaurar el entorno de trabajo.
+!SUBENTRY 1 unknown 0 0 2019-09-22 14:56:36.242
+!MESSAGE Aceptar
+!SUBENTRY 1 unknown 0 0 2019-09-22 14:56:36.242
+!MESSAGE Aceptar
+!SUBENTRY 1 unknown 0 0 2019-09-22 14:56:36.242
+!MESSAGE Aceptar
+!SUBENTRY 1 unknown 0 0 2019-09-22 14:56:36.242
+!MESSAGE Aceptar
+!SUBENTRY 1 org.eclipse.ui 4 0 2019-09-22 14:56:36.242
+!MESSAGE No se ha podido restaurar la perspectiva: Workspace - Modeling.
+!SUBENTRY 2 org.eclipse.ui 0 0 2019-09-22 14:56:36.242
+!MESSAGE Se han producido problemas al restaurar la perspectiva.
+!SUBENTRY 3 org.eclipse.ui 0 0 2019-09-22 14:56:36.242
+!MESSAGE 
+!SUBENTRY 2 unknown 0 0 2019-09-22 14:56:36.242
+!MESSAGE Aceptar
+!SUBENTRY 2 unknown 0 0 2019-09-22 14:56:36.242
+!MESSAGE Aceptar
+!SUBENTRY 2 unknown 0 0 2019-09-22 14:56:36.242
+!MESSAGE Aceptar
+!SUBENTRY 2 org.eclipse.ui 4 4 2019-09-22 14:56:36.242
+!MESSAGE No se ha podido crear la vista: com.ibm.ccl.erf.ui.views.reportexplorer
+!STACK 1
+org.eclipse.ui.PartInitException: No se ha podido crear la vista: com.ibm.ccl.erf.ui.views.reportexplorer
+	at org.eclipse.ui.internal.ViewFactory.createView(Unknown Source)
+	at org.eclipse.ui.internal.Perspective.createReferences(Unknown Source)
+	at org.eclipse.ui.internal.Perspective.restoreState(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage$17.runWithException(Unknown Source)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(Unknown Source)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$31.runWithException(Unknown Source)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(Unknown Source)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.main(Unknown Source)
+!SUBENTRY 3 org.eclipse.ui 4 0 2019-09-22 14:56:36.242
+!MESSAGE No se ha podido crear la vista: com.ibm.ccl.erf.ui.views.reportexplorer
+!SUBENTRY 2 org.eclipse.ui 4 4 2019-09-22 14:56:36.242
+!MESSAGE No se ha podido crear la vista: com.ibm.xtools.mde.guidance
+!STACK 1
+org.eclipse.ui.PartInitException: No se ha podido crear la vista: com.ibm.xtools.mde.guidance
+	at org.eclipse.ui.internal.ViewFactory.createView(Unknown Source)
+	at org.eclipse.ui.internal.Perspective.createReferences(Unknown Source)
+	at org.eclipse.ui.internal.Perspective.restoreState(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage$17.runWithException(Unknown Source)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(Unknown Source)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$31.runWithException(Unknown Source)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(Unknown Source)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.main(Unknown Source)
+!SUBENTRY 3 org.eclipse.ui 4 0 2019-09-22 14:56:36.242
+!MESSAGE No se ha podido crear la vista: com.ibm.xtools.mde.guidance
+!SUBENTRY 2 unknown 0 0 2019-09-22 14:56:36.242
+!MESSAGE Aceptar
+!SUBENTRY 2 unknown 0 0 2019-09-22 14:56:36.242
+!MESSAGE Aceptar
+!SUBENTRY 2 unknown 0 0 2019-09-22 14:56:36.242
+!MESSAGE Aceptar
+!SUBENTRY 2 unknown 0 0 2019-09-22 14:56:36.242
+!MESSAGE Aceptar
+!SUBENTRY 2 org.eclipse.ui 4 0 2019-09-22 14:56:36.242
+!MESSAGE No se ha podido encontrar la vista: com.ibm.ccl.erf.ui.views.reportexplorer
+!SUBENTRY 2 org.eclipse.ui 4 0 2019-09-22 14:56:36.242
+!MESSAGE No se ha podido encontrar la vista: com.ibm.xtools.mde.guidance
+!SUBENTRY 1 unknown 0 0 2019-09-22 14:56:36.242
+!MESSAGE Aceptar
